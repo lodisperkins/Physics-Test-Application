@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\s188043\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\s188043\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Bootstrap.527532984.00" t="ExcludeRecursive" />
+    <e p="C:\Users\s188043\Documents\GitHub\Physics-Test-Application" t="IncludeFlat">
+      <e p="bootstrap" t="IncludeRecursive">
+        <e p="Application.cpp" t="Include" />
+        <e p="Application.h" t="Include" />
+        <e p="Bootstrap.vcxproj" t="IncludeRecursive" />
+        <e p="Font.cpp" t="Include" />
+        <e p="Font.h" t="Include" />
+        <e p="Gizmos.cpp" t="Include" />
+        <e p="Gizmos.h" t="Include" />
+        <e p="gl_core_4_4.c" t="Include" />
+        <e p="gl_core_4_4.h" t="Include" />
+        <e p="imgui_glfw3.cpp" t="Include" />
+        <e p="imgui_glfw3.h" t="Include" />
+        <e p="Input.cpp" t="Include" />
+        <e p="Input.h" t="Include" />
+        <e p="Renderer2D.cpp" t="Include" />
+        <e p="Renderer2D.h" t="Include" />
+        <e p="Texture.cpp" t="Include" />
+        <e p="Texture.h" t="Include" />
+      </e>
+      <e p="Bootstrap.sln" t="IncludeFlat" />
+      <e p="BreakOut" t="IncludeRecursive">
+        <e p="BreakOut.vcxproj" t="IncludeRecursive" />
+        <e p="BreakOutApp.cpp" t="Include" />
+        <e p="BreakOutApp.h" t="Include" />
+        <e p="main.cpp" t="Include" />
+      </e>
+      <e p="CollisionApp" t="IncludeRecursive">
+        <e p="CollisionApp.vcxproj" t="IncludeRecursive" />
+        <e p="FixedTimestampStudyApp.cpp" t="Include" />
+        <e p="FixedTimestampStudyApp.h" t="Include" />
+        <e p="main.cpp" t="Include" />
+        <e p="PhysicsObject.cpp" t="Include" />
+        <e p="PhysicsObject.h" t="Include" />
+        <e p="PhysicsScene.cpp" t="Include" />
+        <e p="PhysicsScene.h" t="Include" />
+        <e p="Plane.cpp" t="Include" />
+        <e p="Plane.h" t="Include" />
+        <e p="Rigidbody.cpp" t="Include" />
+        <e p="Rigidbody.h" t="Include" />
+        <e p="Sphere.cpp" t="Include" />
+        <e p="Sphere.h" t="Include" />
+      </e>
+      <e p="dependencies\bootstrap\Win32\Debug" t="ExcludeRecursive" />
+      <e p="dependencies\imgui" t="Include">
+        <e p="imconfig.h" t="Include" />
+        <e p="imgui.cpp" t="Include" />
+        <e p="imgui.h" t="Include" />
+        <e p="imgui_draw.cpp" t="Include" />
+        <e p="imgui_internal.h" t="Include" />
+      </e>
+      <e p="FixedTimestep" t="IncludeRecursive">
+        <e p="FixedTimestep.vcxproj" t="IncludeRecursive" />
+        <e p="FixedTimestepApp.cpp" t="Include" />
+        <e p="FixedTimestepApp.h" t="Include" />
+        <e p="main.cpp" t="Include" />
+        <e p="PhysicsObject.cpp" t="Include" />
+        <e p="PhysicsObject.h" t="Include" />
+        <e p="PhysicsScene.cpp" t="Include" />
+        <e p="PhysicsScene.h" t="Include" />
+        <e p="Rigidbody.cpp" t="Include" />
+        <e p="Rigidbody.h" t="Include" />
+        <e p="Sphere.cpp" t="Include" />
+        <e p="Sphere.h" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Project2D" t="IncludeRecursive">
+        <e p="Application2D.cpp" t="Include" />
+        <e p="Application2D.h" t="Include" />
+        <e p="main.cpp" t="Include" />
+        <e p="Project2D.vcxproj" t="IncludeRecursive" />
+      </e>
+      <e p="Project3D" t="IncludeRecursive">
+        <e p="Application3D.cpp" t="Include" />
+        <e p="Application3D.h" t="Include" />
+        <e p="main.cpp" t="Include" />
+        <e p="Project3D.vcxproj" t="IncludeRecursive" />
+      </e>
+      <e p="temp\bootstrap\Win32\Debug" t="ExcludeRecursive" />
+      <e p="temp\BreakOut\Win32\Debug" t="ExcludeRecursive" />
+      <e p="temp\CollisionApp\Win32\Debug" t="ExcludeRecursive" />
+      <e p="temp\FixedTimestep\Win32\Debug" t="ExcludeRecursive" />
+      <e p="temp\Project2D\Win32\Debug" t="ExcludeRecursive" />
+      <e p="temp\Project3D\Win32\Debug" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
