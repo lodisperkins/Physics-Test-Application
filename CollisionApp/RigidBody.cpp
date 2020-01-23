@@ -42,21 +42,31 @@ void RigidBody::debug()
 
 void RigidBody::applyForce(glm::vec2 force)
 {
+	if(isStatic)
+	{
+		return;
+	}
 	m_velocity += force/m_mass;
 }
 
 void RigidBody::applyForceToActor(RigidBody* actor2, glm::vec2 force)
 {
 	auto force_Actor2 = actor2->getMass() * actor2->getVelocity();
-
-	// This object exerts force on the other, then receives the same back
-	actor2->applyForce(force);
-	applyForce(-force);
-
-
-	// The other object exerts force on this object, then receives the same back
-	applyForce(force_Actor2);
-	actor2->applyForce(-force_Actor2);
+	if(actor2->isStatic == false)
+	{
+		// This object exerts force on the other, then receives the same back
+		actor2->applyForce(force);
+	}
+	if(isStatic == false)
+	{
+		applyForce(-force);
+		// The other object exerts force on this object, then receives the same back
+		applyForce(force_Actor2);
+	}
+	if(actor2->isStatic == false)
+	{
+		actor2->applyForce(-force_Actor2);
+	}
 }
 
 void RigidBody::resolveCollision(RigidBody * actor2)
@@ -66,7 +76,10 @@ void RigidBody::resolveCollision(RigidBody * actor2)
 	float elasticity = 1;
 	float j = glm::dot(-(1 + elasticity)*(relativeVelocity), normal) / glm::dot(normal, normal*((1 / m_mass) + (1 / actor2->getMass())));
 	glm::vec2 force = normal * j;
-	applyForceToActor(actor2, force);
+	if(isStatic == false)
+	{
+		applyForceToActor(actor2, force);
+	}
 }
 
 void RigidBody::setMaxSpeed(float speed)

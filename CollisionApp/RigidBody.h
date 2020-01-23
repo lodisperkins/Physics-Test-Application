@@ -27,7 +27,7 @@ public:
 	void setMaxSpeed(float speed);
 	glm::vec2 getVelocity() { return m_velocity; }
 	float getMass() { return m_mass; }
-
+	bool isStatic =false;
 protected:
 	glm::vec2 m_position{};
 	glm::vec2 m_velocity{};

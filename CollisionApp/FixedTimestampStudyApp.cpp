@@ -29,12 +29,14 @@ bool FixedTimestampStudyApp::startup() {
 	//Creates two new balls for the scene
 	ball = new Sphere(glm::vec2(-20, 0), glm::vec2(0, 0), 4.0f, 4, glm::vec4(1, 0, 0, 1));
 	ball2 = new Sphere(glm::vec2(20, 0), glm::vec2(0, 0), 4.0f, 4, glm::vec4(0, 1, 0, 1));
+	ball2->isStatic = true;
 	//adds balls as actors to the scene
 	m_physicsScene->addActor(ball);
 	m_physicsScene->addActor(ball2);
 	//gives the balls a starting velocity
 	ball->applyForce(glm::vec2(50, 20));
 	ball2->applyForce(glm::vec2(-40, 20));
+	
 	return true;
 }
 

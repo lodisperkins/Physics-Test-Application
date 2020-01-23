@@ -1,1 +1,11 @@
-﻿  CollisionApp.vcxproj -> C:\Users\jordo\OneDrive\Documents\GitHub\Physics-Test-Application\temp\CollisionApp\x64\Debug\CollisionApp.exe
+﻿  RigidBody.cpp
+c:\users\s188043\documents\github\physics-test-application\collisionapp\rigidbody.cpp(39): warning C4477: 'sprintf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'glm::vec2'
+c:\users\s188043\documents\github\physics-test-application\collisionapp\rigidbody.cpp(30): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\s188043\documents\github\physics-test-application\collisionapp\rigidbody.cpp(33): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\s188043\documents\github\physics-test-application\collisionapp\rigidbody.cpp(36): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+c:\users\s188043\documents\github\physics-test-application\collisionapp\rigidbody.cpp(39): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  CollisionApp.vcxproj -> C:\Users\s188043\Documents\GitHub\Physics-Test-Application\temp\CollisionApp\x64\Debug\CollisionApp.exe
